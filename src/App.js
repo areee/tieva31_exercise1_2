@@ -9,6 +9,10 @@ import TextField from 'material-ui/TextField'
 import Checkbox from 'material-ui/Checkbox'
 import RaisedButton from 'material-ui/RaisedButton'
 
+const styles = {
+  display: 'inline-block'
+}
+
 class App extends Component {
 
 
@@ -18,7 +22,7 @@ class App extends Component {
     return (
       <MuiThemeProvider>
         <Paper style={{width: 600, margin: 20, padding: 20}}>
-          <div>
+          <div style={{styles}}>
             <Checkbox />
             <Checkbox />
             <Checkbox />
