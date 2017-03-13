@@ -17,8 +17,26 @@ class App extends Component {
 
     return (
       <MuiThemeProvider>
-        <Paper style={{width: 400, padding: 20}}>
-          Content
+        <Paper style={{width: 600, margin: 20, padding: 20}}>
+          <div>
+            <Checkbox />
+            <Checkbox />
+            <Checkbox />
+            <Checkbox />
+            <Checkbox />
+            <Checkbox />
+            <Checkbox />
+            <Checkbox />
+          </div>
+          <div>
+            <TextField setValue={0} id="text field 1" />
+          </div>
+          <div>
+          <RaisedButton label="Convert" />
+          </div>
+          <div>
+            <TextField setValue={0} id="text field 2" />
+          </div>
         </Paper>
       </MuiThemeProvider>
     );
