@@ -9,7 +9,7 @@ import TextField from 'material-ui/TextField'
 import Checkbox from 'material-ui/Checkbox'
 import RaisedButton from 'material-ui/RaisedButton'
 
-let result = "123";
+let result = "";
 
 const styles = {
   div:{
@@ -33,7 +33,7 @@ constructor(){
     cb6checked: 0,
     cb7checked: 0,
     cb8checked: 0,
-    tf1: "",
+    tf1: "00000000",
     tf2: "",
   }
 }
@@ -50,7 +50,7 @@ useCb1 = (event, isChecked) => {
   if(isChecked){
     this.setState({
     cb1checked: 1,
-    tf1: result,
+    
   });
   }else{
     this.setState({
